@@ -39,7 +39,13 @@ Partial Class frmProduct
         Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolStrip1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ListView1
@@ -160,11 +166,63 @@ Partial Class frmProduct
         Me.ToolStripButton5.Size = New System.Drawing.Size(71, 37)
         Me.ToolStripButton5.Text = "S&tock-In"
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.RadioButton2)
+        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Location = New System.Drawing.Point(909, 43)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(321, 537)
+        Me.GroupBox1.TabIndex = 30
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "GroupBox1"
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(28, 29)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton1.TabIndex = 0
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "RadioButton1"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(124, 29)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton2.TabIndex = 1
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "RadioButton2"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(70, 67)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(25, 70)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Label1"
+        '
         'frmProduct
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1242, 592)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.DoubleBuffered = True
@@ -174,6 +232,8 @@ Partial Class frmProduct
         Me.Text = "Product"
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -193,4 +253,9 @@ Partial Class frmProduct
     Friend WithEvents ColumnHeader11 As System.Windows.Forms.ColumnHeader
     Friend WithEvents ToolStripLabel1 As System.Windows.Forms.ToolStripLabel
     Friend WithEvents ToolStripButton5 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents RadioButton1 As RadioButton
 End Class

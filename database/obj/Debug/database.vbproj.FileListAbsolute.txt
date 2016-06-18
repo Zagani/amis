@@ -26,3 +26,10 @@ C:\github\amis\database\obj\Debug\database.vbprojResolveAssemblyReference.cache
 C:\github\amis\database\obj\Debug\database.dll
 C:\github\amis\database\obj\Debug\database.xml
 C:\github\amis\database\obj\Debug\database.pdb
+C:\github\database\bin\Debug\database.dll
+C:\github\database\bin\Debug\database.pdb
+C:\github\database\bin\Debug\database.xml
+C:\github\database\obj\Debug\database.vbprojResolveAssemblyReference.cache
+C:\github\database\obj\Debug\database.dll
+C:\github\database\obj\Debug\database.xml
+C:\github\database\obj\Debug\database.pdb
