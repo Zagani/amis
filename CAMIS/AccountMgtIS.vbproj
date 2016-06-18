@@ -72,8 +72,9 @@
     <Reference Include="MetroFramework.Demo">
       <HintPath>C:\Users\MarloA-PC\Downloads\metroframework-modern-ui-master\metroframework-modern-ui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe</HintPath>
     </Reference>
-    <Reference Include="MetroFramework.Design">
-      <HintPath>C:\Users\MarloA-PC\Downloads\metroframework-modern-ui-master\MetroFramework.Design.dll</HintPath>
+    <Reference Include="MetroStyle, Version=3.2.56.700, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\MetroStyle.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
       <HintPath>..\MySql.Data.dll</HintPath>
@@ -402,6 +403,7 @@
     <None Include="Resources\Stock-Index-Up-icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MetroStyle.dll" />
     <Content Include="MySql.Data.dll" />
     <Content Include="Resources\51882.png" />
     <None Include="Resources\bg8.jpg" />

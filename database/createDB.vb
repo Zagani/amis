@@ -94,7 +94,7 @@ Public Class createDB
                 Barcode varchar(45) not null,
                 Description Varchar(45) not null,
                 Brand varchar(45) not null,
-                primary KEYS(ItemInfoID)
+                primary KEY(ItemInfoID)
                 )")
         'CREATE USER ON DATABASE PHPMYADMIN
         'sqlList.Add("GRANT ALL PRIVILEGES ON  `" & dbname & "` . * TO  '" & dbUser & "'@'localhost' WITH GRANT OPTION")
